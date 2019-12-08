@@ -72,7 +72,7 @@ defmodule WaoBirthday.Commands.Remind do
     table =
       birthdays
       |> Enum.map(fn {name, birthday} ->
-        "| #{center(name, longest_birthday_length)} | #{center(birthday, longest_birthday_length)} |"
+        "| #{center(name, longest_name_length)} | #{center(birthday, longest_birthday_length)} |"
       end)
       |> Enum.join("\n")
 
