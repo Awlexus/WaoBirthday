@@ -23,12 +23,12 @@ defmodule WaoBirthday.Birthday do
     with {month, _} when is_integer(month) <- Integer.parse(month_str),
          {day, _} when is_integer(day) <- Integer.parse(day_str),
          {:ok, _date} <- Date.new(2000, month, day) do
-      Query.write(%__MODULE__{
+      {:ok, Query.write(%__MODULE__{
         uid: id,
         day: day,
         month: month,
         by_owner: owner
-      })
+      })}
     else
       :error -> {:error, "Invalid Date"}
       {:error, _} -> {:error, "Invalid Date"}
