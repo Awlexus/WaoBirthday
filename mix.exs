@@ -22,7 +22,9 @@ defmodule WaoBirthday.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:alchemy, "~> 0.6.4", hex: :discord_alchemy},
+      # Until new hex release is deployed
+      # {:alchemy, "~> 0.6.4", hex: :discord_alchemy},
+      {:alchemy, github: "cronokirby/alchemy"},
       {:memento, "~> 0.3.1"},
       {:timex, "~> 3.6"},
       {:honeydew, "~> 1.4"},

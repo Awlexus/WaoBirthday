@@ -1,5 +1,5 @@
 %{
-  "alchemy": {:hex, :discord_alchemy, "0.6.4", "6aa8050decc6b8cf1ed08e5a7c2c1a9b7927e190674dfac6dfa8629d43dda7ab", [:mix], [{:gen_stage, "~> 0.14", [hex: :gen_stage, repo: "hexpm", optional: false]}, {:httpoison, "~> 1.5", [hex: :httpoison, repo: "hexpm", optional: false]}, {:kcl, "~> 1.1", [hex: :kcl, repo: "hexpm", optional: false]}, {:poison, "~> 4.0", [hex: :poison, repo: "hexpm", optional: false]}, {:porcelain, "~> 2.0", [hex: :porcelain, repo: "hexpm", optional: false]}, {:websocket_client, "~> 1.3", [hex: :websocket_client, repo: "hexpm", optional: false]}], "hexpm"},
+  "alchemy": {:git, "https://github.com/cronokirby/alchemy.git", "d72ecb0f1a1b71f65cc748efd229df873893a43f", []},
   "certifi": {:hex, :certifi, "2.5.1", "867ce347f7c7d78563450a18a6a28a8090331e77fa02380b4a21962a65d36ee5", [:rebar3], [{:parse_trans, "~>3.3", [hex: :parse_trans, repo: "hexpm", optional: false]}], "hexpm"},
   "chacha20": {:hex, :chacha20, "1.0.2", "73c5e96eba5e94917603a43c5c7c6b049436a5d71d9d3182781c345d87d28c8b", [:mix], [], "hexpm"},
   "combine": {:hex, :combine, "0.10.0", "eff8224eeb56498a2af13011d142c5e7997a80c8f5b97c499f84c841032e429f", [:mix], [], "hexpm"},
