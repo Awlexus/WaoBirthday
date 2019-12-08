@@ -34,7 +34,7 @@ defmodule WaoBirthday do
 
   defp assert_created(table, nodes) do
     case Table.create(table, disc_copies: nodes) do
-      {:ok, _} -> :ok
+      :ok -> :ok
       {:error, {:already_exists, ^table}} -> :ok
     end
 
